@@ -66,9 +66,4 @@ public class Util {
         }
         return sessionFactory;
     }
-
-    public static Session getSession()
-            throws HibernateException {
-        return sessionFactory.openSession();
-    }
 }
